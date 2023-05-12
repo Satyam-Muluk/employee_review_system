@@ -1,0 +1,80 @@
+/* Heading of the admin Page */
+.heading{
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    align-content: center; */
+    color:black;
+    font-size:1.5rem;
+    text-decoration:underline 2px rgb(122, 122, 122);
+    font-weight:bold;
+   
+}
+.text-center{
+    font-size:1.2rem;
+    margin-top:5px;
+    text-decoration:underline 2px rgb(99, 99, 99);
+    font-weight:bold;
+}
+/* Assign Heading */
+.assingHeadine{
+    display: flex;
+    justify-content: center;
+}
+/* Container for assigning reviwer and reviewing */
+.reviewContainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 5px 1px rgb(214, 214, 214);
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30%;
+    align-items: center;
+    height: fit-content;
+    border-radius:10px;
+}
+.form-select{
+    margin-bottom: 8px;
+}
+.form-select:hover{
+    background-color: rgb(243, 243, 243);
+}
+/* for the reviewer, containere */
+.reviewer{
+    width: 90%;
+}
+/* Submit buttons div*/
+.submitButtons{
+    margin-left: 33%;
+    width: 30%;
+    margin-top:10px;
+    padding:10px;
+}
+/* Submit buttons  */
+.submitButtons button{
+    background-color:#db7474;
+    width: 10vw;
+    height: 30px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    padding: 2px 4px 8px 4px;
+}
+.submitButtons button:hover{
+    background-color:#db5757 ;
+}
+/* This button is used in assigning admin,  */
+.submitButtons2{
+    width: 10vw;
+}
+
+.btn{
+    background-color: #db7474;
+}
+.btn:hover{
+    background-color: #d44b4b;
+}
+#addemp{
+    background-color: lightyellow;
+}
